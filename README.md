@@ -1,4 +1,8 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+This is MYM Extension built with [Plasmo framework](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+
+## Introduction
+
+This extension works only on linkedin.com and visit linkedin.com to check. this extension extends linkedin.com profile page by adding `Quick-Connect` button to the profile and also extends to adding `Custom Notes`. this allow users to take note down from their linkedin's feed by clicking the right center fixed button showing MYM logo.
 
 ## Getting Started
 
@@ -10,11 +14,21 @@ pnpm dev
 npm run dev
 ```
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
+## Looking up
 
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
+- Check `src` directory see the code that power the extension's functionality
+- `Contents` folder for Contents Scripting UIs
+- `features` folder for resuable react components
 
 For further guidance, [visit our Documentation](https://docs.plasmo.com/)
+
+## Built with
+
+- React
+- Typescript
+- TailwindCss
+- Plasmo Framework
+- Pnpm for package manager (recommended to install by running `npm i -g pnpm` )
 
 ## Making production build
 
@@ -31,4 +45,3 @@ This should create a production bundle for your extension, ready to be zipped an
 ## Submit to the webstores
 
 The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
-# mym_extension
