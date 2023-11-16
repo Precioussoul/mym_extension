@@ -23,7 +23,7 @@ npm run dev
 - Go to chrome browser >> extensions >> turn on developer mode on extension >> click on `load unpacked` >> navigate to the `build` folder directory and select `chrome-mv3-dev` folder to load the extension on your chrome browser
 - Visit https://www.linkedin.com to test the extension or click on the extension icon to see the popup information on how to use.
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
+For further guidance, [Visit plasmo documentation](https://docs.plasmo.com/)
 
 ## Built with
 
