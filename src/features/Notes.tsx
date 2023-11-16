@@ -29,7 +29,7 @@ const Notes = ({ onClose }: NotesProps) => {
           name="title"
           placeholder="title"
           id="title"
-          className="plasmo-w-full plasmo-h-[51px] plasmo-px-4 plasmo-mt-8 plasmo-rounded-md plasmo-font-[700] plasmo-text-[1.5rem] plasmo-bg-neutral-100 plasmo-outline-none "
+          className="plasmo-w-full plasmo-h-[51px] plasmo-px-4 plasmo-mt-4 plasmo-rounded-md plasmo-font-[700] plasmo-text-[1.5rem] plasmo-bg-neutral-100 plasmo-outline-none "
         />
       </div>
       <div className="">
@@ -42,7 +42,7 @@ const Notes = ({ onClose }: NotesProps) => {
           name="description"
           id="description"
           placeholder="Notes something down"
-          className="plasmo-w-full plasmo-h-[50vh] plasmo-p-4 plasmo-rounded-md plasmo-mt-6 plasmo-font-[700] plasmo-text-[1.5rem] plasmo-bg-neutral-100 plasmo-outline-none "
+          className="plasmo-w-full plasmo-h-[50vh] plasmo-p-4 plasmo-rounded-md plasmo-mt-4 plasmo-font-[700] plasmo-text-[1.5rem] plasmo-bg-neutral-100 plasmo-outline-none "
         />
       </div>
       <div className="plasmo-flex plasmo-w-full plasmo-gap-8 plasmo-mb-6">
