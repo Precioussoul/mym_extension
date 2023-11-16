@@ -2,6 +2,8 @@ import cssText from "data-text:~style.css"
 import type { PlasmoCSConfig } from "plasmo"
 import { useState } from "react"
 
+import Notes from "~features/Notes"
+
 export const config: PlasmoCSConfig = {
   matches: ["https://www.linkedin.com/*"]
 }
@@ -18,11 +20,11 @@ const PlasmoOverlay = () => {
     <div className="">
       {isOpen && (
         <div
-          className="plasmo-h-[100vh] plasmo-w-[400px] plasmo-top-0 plasmo-right-0 plasmo-fixed plasmo-bg-white  plasmo-shadow-lg"
+          className="plasmo-h-[100vh] plasmo-overflow-y-scroll plasmo-overflow-x-hidden plasmo-w-[400px] plasmo-top-0 plasmo-right-0 plasmo-fixed plasmo-bg-white  plasmo-shadow-lg"
           style={{
             padding: 12
           }}>
-          CSUI OVERLAY FIXED POSITION
+          <Notes />
         </div>
       )}
       <div
