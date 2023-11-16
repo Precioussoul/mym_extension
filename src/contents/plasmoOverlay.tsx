@@ -20,11 +20,11 @@ const PlasmoOverlay = () => {
     <div className="">
       {isOpen && (
         <div
-          className="plasmo-h-[100vh] plasmo-overflow-y-scroll plasmo-overflow-x-hidden plasmo-w-[400px] plasmo-top-0 plasmo-right-0 plasmo-fixed plasmo-bg-white  plasmo-shadow-lg"
+          className="hide-scroll plasmo-py-4 plasmo-h-[100vh] plasmo-overflow-y-scroll plasmo-overflow-x-hidden plasmo-w-[400px] plasmo-top-0 plasmo-right-0 plasmo-fixed plasmo-bg-white  plasmo-shadow-lg"
           style={{
             padding: 12
           }}>
-          <Notes />
+          <Notes onClose={() => setisOpen((prev) => !prev)} />
         </div>
       )}
       <div
