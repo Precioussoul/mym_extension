@@ -1,7 +1,6 @@
 import cssText from "data-text:~style.css"
 import type { PlasmoCSConfig, PlasmoGetInlineAnchor } from "plasmo"
 
-import { CountButton } from "~features/count-button"
 import Quick_connect from "~features/Quick_connect"
 
 export const getInlineAnchor: PlasmoGetInlineAnchor = async () =>
