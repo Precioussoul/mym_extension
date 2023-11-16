@@ -1,4 +1,4 @@
-This is MYM Extension built with [Plasmo framework](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+This is MYM Extension built with [Plasmo framework](https://docs.plasmo.com/).
 
 ## Introduction
 
@@ -14,11 +14,14 @@ pnpm dev
 npm run dev
 ```
 
-## Looking up
+## Look up
 
 - Check `src` directory see the code that power the extension's functionality
 - `Contents` folder for Contents Scripting UIs
 - `features` folder for resuable react components
+- `build` folder contains `chrome-mv3-dev` folder which is the chrome extension in development mode.
+- Go to chrome browser >> extensions >> turn on developer mode on extension >> click on `load unpacked` >> navigate to the `build` folder directory and select `chrome-mv3-dev` folder to load the extension on your chrome browser
+- Visit https://www.linkedin.com to test the extension or click on the extension icon to see the popup information on how to use.
 
 For further guidance, [visit our Documentation](https://docs.plasmo.com/)
 
